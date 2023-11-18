@@ -33,3 +33,7 @@ Notas de el proyecto del Admin Dashboard panel de el video de el canal de [Lama 
 * **Componente ui**
 
   * Dentro de este componente agregamos el archivo **global.css**
+
+* **global.css**
+  
+  * Declaramos los estilos globales.
