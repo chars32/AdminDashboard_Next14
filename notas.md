@@ -37,3 +37,7 @@ Notas de el proyecto del Admin Dashboard panel de el video de el canal de [Lama 
 * **global.css**
   
   * Declaramos los estilos globales.
+
+* Creamos modulos de css para los componentes de **UI/dashboard**
+
+* En el **layout.jsx** empezamos a darle los className a los contenedores.
