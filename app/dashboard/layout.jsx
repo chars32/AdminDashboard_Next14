@@ -10,8 +10,6 @@ const Layout = ({ children }) => {
       </div>
       <div className={styles.content}>
         <Navbar />
-      </div>
-      <div>
         {children}
       </div>
     </div>

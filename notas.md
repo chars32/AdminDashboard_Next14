@@ -41,3 +41,23 @@ Notas de el proyecto del Admin Dashboard panel de el video de el canal de [Lama 
 * Creamos modulos de css para los componentes de **UI/dashboard**
 
 * En el **layout.jsx** empezamos a darle los className a los contenedores.
+
+## Sidebar Design
+
+* Declaramos los estilos de el **dashboard.module.css**
+
+* **sidebar.jsx**
+
+  * Importamos los iconos que vamos a usar. Estos iconos se obtienen de el paquete [react-icons](https://react-icons.github.io/react-icons/icons/md/).
+
+  * Declaramos una variable **menuItems** la cual contiene los titulos, subtitutlos, path e iconos de loas diferentes categorias y subcategiras de el sidebar.
+
+  * Mapeamos esta variable dentro de el cuerpo del **Sidebar** y agregamos clases correspondientes.
+
+* ¨¨**menuLink.jsx**
+
+  * En este componente creara los enlaces para navegar a las diferentes paginas de nuestro dashboard.
+  
+  * Creamos los **Link** con el componente preestablecido por NextJs y en el className creamos una condicion para que sombre el enlace donde se encuetra actualmete. Esto se logra utilizando el metodo usePathName que tiene preestablecido NextJs. Para poderlo usar es necesario usar este componente del lado del cliente `use client`.
+
+* En los moduloes **sidebar.module.css** y **menuLink.module.css** declaramos los estilos.
