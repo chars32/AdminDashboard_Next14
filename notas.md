@@ -14,3 +14,9 @@ Notas de el proyecto del Admin Dashboard panel de el video de el canal de [Lama 
 * Instalamos las librerias con el comando `npm i`
 
 * Corremos el comando `npm run dev` y debería funcionar en el navegador en la url **localhost:300**
+
+## Estructura inicial de carpetas
+
+* Este proyecto se compondra de dos pantallas o paginas las cuales seran **Login** y **Dashboard**.
+
+* Creamos la estructura inicial de carpetas para las pantallas de el proyecto.
