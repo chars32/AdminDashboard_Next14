@@ -20,3 +20,16 @@ Notas de el proyecto del Admin Dashboard panel de el video de el canal de [Lama 
 * Este proyecto se compondra de dos pantallas o paginas las cuales seran **Login** y **Dashboard**.
 
 * Creamos la estructura inicial de carpetas para las pantallas de el proyecto.
+
+## Navbar y Sidebar
+
+* Debido a que los componentes **Navbar** y **Sidebar** solo serán utilizados en el componente **Dashboard**, podemos agruparlos en una carpeta aparte llamada ***ui** la cual contendra todos los compenentes especificos para un componente general. En este caso creamos dos carpetas **dashboard** y **login** las cuales contendran los componentes especificos que contendran los componentes generales con los mismos nombres.
+
+* **Componente dashboard**
+
+  * Creamos un componente **layout.jsx** el cual sera el layout el cual afectara a todo ese componente **dahsboard**. Esto se logra al pasarle como parametro el **children**.
+  * Creamos dos componentes nuevos **products** y **users**
+
+* **Componente ui**
+
+  * Dentro de este componente agregamos el archivo **global.css**
