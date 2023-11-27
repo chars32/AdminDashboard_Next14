@@ -61,3 +61,18 @@ Notas de el proyecto del Admin Dashboard panel de el video de el canal de [Lama 
   * Creamos los **Link** con el componente preestablecido por NextJs y en el className creamos una condicion para que sombre el enlace donde se encuetra actualmete. Esto se logra utilizando el metodo usePathName que tiene preestablecido NextJs. Para poderlo usar es necesario usar este componente del lado del cliente `use client`.
 
 * En los moduloes **sidebar.module.css** y **menuLink.module.css** declaramos los estilos.
+
+## Navbar Design
+
+* **navbar.jsx**
+  * Creamos el maquetado de el navbar y sus secciones
+  * Utilizamos la variable **pathname** para imprimirla en pantalla, pero devido a que se ve toda la ruta y solo querems que se vea lo que es _dashboar, user, etc_ utilizamos el metodo pop para que asi se pueda visualizar.
+
+* **navbar.mdule.css**
+  * Creamos los estilos para el navbar
+
+* **sidebar.jsx**
+  * Agregamos un boton para el **Logout**
+
+* **sidebar.module.css**
+  * Creamos los estilos para el boton **Logout**
